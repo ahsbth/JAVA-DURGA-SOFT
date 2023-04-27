@@ -1,6 +1,14 @@
 class Second {
     public static void main(String args[])
-    {
+    {   
+        A a=new A();
+        a.methode1();
+        B b=new B();
+        b.methode2();
+       // C c=new C();
+       // c.methode3();
+        //D d=new D();
+        d.methode4();
         System.out.println("Main class Second");
     }
 }
@@ -16,7 +24,7 @@ public class B{
         System.out.println("Hello B");
      }
 }
-class Class{
+class C{
     void methode3()
     {
         System.out.println("Hello C");

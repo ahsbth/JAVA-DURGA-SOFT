@@ -10,6 +10,7 @@ public class Add {
       b=sc.nextInt();
       try{
       System.out.println("Product="+(a*b));
+      if(b==0) throw new ArithmeticException("/ by zero");
       System.out.println("Devide="+(a/b));
       System.out.println("Mode="+(a%b));
       System.out.println("Add="+(a+b));
@@ -17,7 +18,7 @@ public class Add {
       }
       catch(ArithmeticException e)
       {
-        e.printStackTrace();
+        System.out.println(e.getMessage());
       }
     }
 
