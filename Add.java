@@ -15,9 +15,9 @@ public class Add {
       System.out.println("Add="+(a+b));
       System.out.println("Substraction="+(a-b));
       }
-      catch(Exception e)
+      catch(ArithmeticException e)
       {
-        System.out.println(e);
+        e.printStackTrace();
       }
     }
 
